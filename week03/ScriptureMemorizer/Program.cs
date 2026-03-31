@@ -4,7 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Exceeding requirements:
+        // Exceeding requirements:For my exceed requirements, I made the program hide only words that are still visible. That way it doesn’t keep choosing words that were already hidden before. It makes the program work better and helps more with memorizing.
+        
         // This version avoids rehiding already hidden words.
 
         Reference reference = new Reference("Proverbs", 3, 5, 6);
